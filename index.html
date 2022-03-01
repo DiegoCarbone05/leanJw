@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sitio oficial de los testigos de Jehová </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://assetsnffrgf-a.akamaihd.net/assets/ct/e420e63f89/images/icon_favicon.gif">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Logo -->
+        <div  class="btn-header-container">
+            <img onclick="redirigir('/')" class="logo" height="80px"
+                src="https://assetsnffrgf-a.akamaihd.net/assets/ct/e420e63f89/images/siteLogo-jworg-large.svg">
+            <h1 class="TJ">Testigos de Jehová</h1>
+        </div>
+
+        <!-- Botones derechos -->
+        <div class="btn-header-container">
+            <button class="btn-nav">
+                <img height="50%" src="assets/icons/languajeJw.svg" alt="">
+                <p>español</p>
+
+            </button>
+            <button onClick="redirigir('https://my.jw.org/home/es/login')" class="btn-nav">
+                <img height="50%"  src="assets/icons/usersIcon.svg" alt="">
+                <p>iniciar sesión</p>
+            </button>
+            <div class="contenedor-busqueda">
+
+                <input id="input-busqueda" placeholder="Buscar" class="search-bar" type="search">
+                <button onclick="realizarBusqueda()" class="btn-buscar">
+                    <img src="assets/icons/search_white_24dp.svg" alt="">
+                </button>
+            </div>
+            
+        </div>
+
+        
+    </header>
+
+
+    <!-- Segundo navbar -->
+    <nav>
+        <div class="btn-nav-container">
+            <button onclick="redirigir('/')" class="btn-nav btnConTextoBlanco">
+                <img src="assets/icons/home_white_24dp.svg" alt="">
+                <p class="uppercaseMode">Inicio</p>
+            </button>
+
+            <button onClick="redirigir('https://www.jw.org/es/ense%C3%B1anzas-b%C3%ADblicas/')" class="btn-nav btnConTextoBlanco">
+                <img height="25px" src="assets/icons/import_contacts_white_24dp.svg" alt="">
+                <p class="uppercaseMode">enseñanzas biblicas </p>
+            </button>
+           
+            <button onclick="redirigir('https://www.jw.org/es/biblioteca/')" class="btn-nav btnConTextoBlanco">
+                <img src="assets/icons/video_library_white_24dp.svg" alt="">
+                <p class="uppercaseMode"> biblioteca</p>
+            </button>
+
+            
+
+
+            <button onclick="redirigir('https://www.jw.org/es/noticias/testigos-de-jehova/')" class="btn-nav btnConTextoBlanco">
+                <img src="assets/icons/language_white_24dp.svg" alt="">
+                <p class="uppercaseMode">prensa</p>
+            </button>
+           
+            <button onclick="redirigir('https://www.jw.org/es/testigos-de-jehov%C3%A1/')" class="btn-nav btnConTextoBlanco">
+                <img src="assets/icons/group_white_24dp.svg" alt="">
+                <p class="uppercaseMode">sobre nosotros</p>
+            </button>
+            
+           
+
+        </div>
+
+
+        
+    </nav>
+
+        
+    <div class="banner">
+        <div class="gradient-banner">
+            <div class="text-banner">
+    
+                <h3 class="banner-title">
+                    <a href="https://www.jw.org/es/ense%C3%B1anzas-b%C3%ADblicas/felicidad-paz-interior/salud-fisica-mental/fatiga-pandemica/">
+                        La fatiga pandémica
+                    </a>
+                </h3>
+                <p>Descubra cómo combatirla.</p>
+
+                <button onClick="redirigir('https://www.jw.org/es/ense%C3%B1anzas-b%C3%ADblicas/felicidad-paz-interior/salud-fisica-mental/fatiga-pandemica/')" class="btn-info">Más información</button>
+
+                
+
+            </div>
+        </div>
+    </div>
+    <main>
+        
+    
+        <div class="title-seccion">
+            
+            <h2>Recomendados</h2>
+
+            <button onclick="redirigir('https://www.jw.org/es/ultimos-articulos-recomendados/')" class="btn-nav">Ver más</button>
+        </div>
+
+        <section class="cards-container">
+           
+            <div class="card">
+                <div class="img-card"></div>
+                <p>¿Sufren los malos eternamente en el infierno</p>
+            </div>
+            
+            <div class="card">
+                <div class="img-card"></div>
+                <p>¿Sufren los malos eternamente en el infierno?</p>
+            </div>
+            
+            <div class="card">
+                <div class="img-card"></div>
+                <p>¿Sufren los malos eternamente en el infierno?</p>
+            </div>
+
+        </section>
+    </main> 
+
+</body>
+
+</html>
